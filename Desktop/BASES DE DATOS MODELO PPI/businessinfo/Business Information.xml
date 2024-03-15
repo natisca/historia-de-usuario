@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3E3FA818-BD91-0460-5B36-DC7F2A44255A">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:27:31 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

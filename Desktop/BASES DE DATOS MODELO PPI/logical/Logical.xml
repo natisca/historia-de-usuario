@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DC3F79F1-A2A3-1E13-5E22-FE68D1F523EE" mainViewID="3FF1710F-D0E7-8A6D-609A-B75915CFF236">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:27:31 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

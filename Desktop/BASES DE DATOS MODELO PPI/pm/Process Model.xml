@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2F520435-6221-6D03-443F-BE33DC5A4C16">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:27:31 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

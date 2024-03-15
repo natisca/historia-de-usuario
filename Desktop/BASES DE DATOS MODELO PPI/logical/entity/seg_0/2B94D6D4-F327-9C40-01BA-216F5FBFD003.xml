@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B94D6D4-F327-9C40-01BA-216F5FBFD003" name="MASCOTA">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:47:28 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_MASCOTA" id="1F8CBF48-FF8A-177D-47CC-FC342521DFDF">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:47:39 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_MASCOTA" id="E4887B32-BD5F-994F-6DE0-02569E692D49">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:48:04 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RAZA_MASCOTA" id="1F98C74C-DB0E-322A-E1C1-59299C7BAD60">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:48:32 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="CFD1836B-5B87-601B-93C5-7DBA42138F3D">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:52:10 UTC</createdTime>
+<generatorID>E35BC3CD-1A09-7AE8-9CA5-1A0ED83CFDAC</generatorID>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<referedAttribute>89314827-6555-A306-2D4A-ABA262A5E1AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87FE5083-E21D-AA43-21FF-9996522D2C5C" name="MASCOTA PK">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:47:48 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F8CBF48-FF8A-177D-47CC-FC342521DFDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

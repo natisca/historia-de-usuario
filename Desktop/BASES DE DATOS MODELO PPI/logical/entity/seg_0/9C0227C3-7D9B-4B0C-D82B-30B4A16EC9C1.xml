@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C0227C3-7D9B-4B0C-D82B-30B4A16EC9C1" name="SERVICIO">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:50:34 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SERVICIO" id="8BB904F4-50B0-3DE4-1FCF-6C18388B60E4">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:50:40 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_SERVICIO" id="DB1BB953-3AC0-BA6F-951F-AFD9193080C7">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:50:54 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLAN" id="123F2C2E-140C-1E0A-0E54-E55AC25CD394">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:52:44 UTC</createdTime>
+<generatorID>3FA2000A-AEFD-F16C-3EC1-1A5DC2ED5BE1</generatorID>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<referedAttribute>BD285DE1-C97E-EC19-A4A4-7C342BFE24EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D6513BA-5AE8-2CB1-AF1C-1591DFDAEC05" name="SERVICIO PK">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:50:48 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8BB904F4-50B0-3DE4-1FCF-6C18388B60E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

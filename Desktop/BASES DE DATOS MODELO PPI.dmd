@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BASES DE DATOS MODELO PPI" id="26B5F063-7EF0-854E-6F7D-0345587869DB" version="3.5">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:27:31 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>26B5F063-7EF0-854E-6F7D-0345587869DB</designId>
+</OSDM_Design>

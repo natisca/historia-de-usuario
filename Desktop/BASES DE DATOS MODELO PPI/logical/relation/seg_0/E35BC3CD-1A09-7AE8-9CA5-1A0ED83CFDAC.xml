@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="E35BC3CD-1A09-7AE8-9CA5-1A0ED83CFDAC">
+<createdBy>natisca</createdBy>
+<createdTime>2024-03-15 11:52:10 UTC</createdTime>
+<ownerDesignName>BASES DE DATOS MODELO PPI</ownerDesignName>
+<engineerTo>
+<item key="047BC19B-0C2F-E7EC-870C-D0EEEF0F9B8B" value="true"/>
+</engineerTo>
+<sourcePk>D7391A26-28D9-66D4-CF8C-8E37A2CF8C48</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EB2F9ADC-3AE5-C4E3-86F6-9B8A61AC15B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B94D6D4-F327-9C40-01BA-216F5FBFD003</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
